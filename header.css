@@ -1,0 +1,10 @@
+.fondo-titulo{
+    background-color: #f0134d;
+    margin: 0 auto;
+    text-align: center;
+    line-height:500px;
+    width:100%;
+    height:500px;
+    font-size: 32px;
+    font-family: 'Roboto Slab', serif;
+}
