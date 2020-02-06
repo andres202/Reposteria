@@ -1,0 +1,20 @@
+.fondo-nav{
+    background-color: #ff6f5e;
+    width:25%;
+}
+.formato-lista{
+    font-size:32px;
+    text-decoration: none;
+    color:white;
+    border-radius: 53px 53px 53px 53px;
+    -moz-border-radius: 53px 53px 53px 53px;
+    -webkit-border-radius: 53px 53px 53px 53px;
+    border: 0px solid #000000;
+    background-color: crimson;
+}
+.tabla-nav{
+    vertical-align: top;
+}
+.separar-lista{
+    padding-bottom: 90px;
+}
