@@ -35,3 +35,46 @@
     padding-top:50px;
 }
 /*CSS SECTION PARTE PRODUCTOS*/
+.centrar-iconos-productos{
+    margin: 0 auto;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    width:60%;
+}
+.borde-figura-productos{
+    border-radius: 24px 24px 24px 24px;
+    -moz-border-radius: 24px 24px 24px 24px;
+    -webkit-border-radius: 24px 24px 24px 24px;
+    border: 0px solid #000000;
+    background-color: rgb(240, 140, 122);
+    width:150px;
+    height:100px;
+    text-align: center;
+    line-height: 130px;
+    margin: 0 auto;
+    margin-right:15px;
+    padding:10px;
+}
+.borde-productos{
+    border-radius: 24px 24px 24px 24px;
+    -moz-border-radius: 24px 24px 24px 24px;
+    -webkit-border-radius: 24px 24px 24px 24px;
+    border: 0px solid #000000;
+    background-color: rebeccapurple;
+    width:400px;
+    height:250px;
+    text-align: center;
+    line-height: 400px;
+    margin: 0 auto;
+    margin-right:15px;
+    padding:10px;
+}
+.borde-tabla-productos{
+    width:100%;
+}
+.dimension-td-productos{
+    width:50%;
+    margin:0 auto;
+    text-align: center;
+}
