@@ -7,10 +7,12 @@
     width:100%;
     border-collapse: collapse;
 }
-.dimension-td{
+.dimension-td-index{
     width:25%;
+    margin:0 auto;
+    text-align: center;
 }
-.borde-imagen{
+.borde-imagen-index{
     border-radius: 52px 52px 200px 52px;
     -moz-border-radius: 52px 52px 200px 52px;
     -webkit-border-radius: 52px 52px 200px 52px;
@@ -20,13 +22,16 @@
     -moz-box-shadow: 30px 18px 23px -8px rgba(0,0,0,0.75);
     box-shadow: 30px 18px 23px -8px rgba(0,0,0,0.75);
 }
-.dimension-imagen{
-    width:300px;
-    height:150px;
+.dimension-imagen-index{
+    width:550px;
+    height:350px;
+    margin:50px;
 }
-.letra-section{
-    font-size: 25px;
+.letra-section-index{
+    font-size: 40px;
     text-align: center;
     margin:0 auto;
     color: darkred;
+    padding-top:50px;
 }
+/*CSS SECTION PARTE PRODUCTOS*/
