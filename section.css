@@ -1,22 +1,24 @@
-.fondo-section{
+/* Css SECTION PARTE INDEX*/
+.fondo-section-index{
     background-color: #f5f0e3;
     width:50%;
 }
-.dimension-tabla-section{
+.dimension-tabla-section-index{
     width:100%;
     border-collapse: collapse;
 }
-td{
+.dimension-td-index{
     width:50%;
 }
-.borde-imagen{
+.borde-imagen-index{
     border-radius: 91px 91px 91px 91px;
     -moz-border-radius: 91px 91px 91px 91px;
     -webkit-border-radius: 91px 91px 91px 91px;
     border: 0px solid #000000;
     padding:50px;
 }
-.dimension-imagen{
+.dimension-imagen-index{
     width:400px;
     height:250px;
 }
+/*CSS SECTION PARTE PRODUCTOS*/
