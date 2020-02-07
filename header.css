@@ -3,9 +3,21 @@
     margin: 0 auto;
     text-align: center;
     width:100%;
-    font-size: 32px;
-    font-family: 'Roboto Slab', serif;
-    color:white;
     padding-top: 50px;
     padding-bottom: 50px;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border: 25px outset #f2a8ff;
+
+}
+.letra-texto{
+    font-size: 100px;
+    font-family: 'Molle', cursive;
+    color:rgb(129, 237, 241);
+}
+.letra-reposteria{
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    color:rgb(246, 169, 133);
 }
