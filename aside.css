@@ -2,3 +2,32 @@
     background-color: #ff6f5e;
     width:25%;
 }
+.letra-aside{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    color:#f0134d;
+    margin:0 auto;
+    text-align: center;
+}
+.tabla-aside{
+    vertical-align: top;
+}
+.imagen-aside{
+    width:60px;
+    height:60px;
+}
+.formato-noticias{
+    font-size:20px;
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+    text-align: right;
+}
+.dimension-tabla-aside{
+    width:100%;
+}
+.separar-noticias{
+    padding-bottom: 30px;
+    background-color: #f0134d;
+    text-align: justify;
+}

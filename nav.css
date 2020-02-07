@@ -1,20 +1,32 @@
 .fondo-nav{
     background-color: #ff6f5e;
-    width:25%;
+    width:20%;
 }
 .formato-lista{
-    font-size:32px;
+    font-size:20px;
     text-decoration: none;
-    color:white;
-    border-radius: 53px 53px 53px 53px;
-    -moz-border-radius: 53px 53px 53px 53px;
-    -webkit-border-radius: 53px 53px 53px 53px;
-    border: 0px solid #000000;
-    background-color: crimson;
+    color:#f0134d;
+    font-weight: bolder;
+    margin-left: 20px;
 }
 .tabla-nav{
     vertical-align: top;
 }
 .separar-lista{
-    padding-bottom: 90px;
+    padding-bottom: 30px;
+    background-color: #40bfc1;
+}
+.letra-nav{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    color:#f0134d;
+    margin:0 auto;
+    text-align: center;
+}
+.imagen-nav{
+    width:60px;
+    height:60px;
+}
+.dimension-tabla-nav{
+    width:100%;
 }

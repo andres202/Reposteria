@@ -1,24 +1,32 @@
 /* Css SECTION PARTE INDEX*/
 .fondo-section-index{
     background-color: #f5f0e3;
-    width:50%;
+    width:55%;
 }
 .dimension-tabla-section-index{
     width:100%;
     border-collapse: collapse;
 }
-.dimension-td-index{
-    width:50%;
+.dimension-td{
+    width:25%;
 }
-.borde-imagen-index{
-    border-radius: 91px 91px 91px 91px;
-    -moz-border-radius: 91px 91px 91px 91px;
-    -webkit-border-radius: 91px 91px 91px 91px;
+.borde-imagen{
+    border-radius: 52px 52px 200px 52px;
+    -moz-border-radius: 52px 52px 200px 52px;
+    -webkit-border-radius: 52px 52px 200px 52px;
     border: 0px solid #000000;
-    padding:50px;
+    padding:10px;
+    -webkit-box-shadow: 30px 18px 23px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 30px 18px 23px -8px rgba(0,0,0,0.75);
+    box-shadow: 30px 18px 23px -8px rgba(0,0,0,0.75);
 }
-.dimension-imagen-index{
-    width:400px;
-    height:250px;
+.dimension-imagen{
+    width:300px;
+    height:150px;
 }
-/*CSS SECTION PARTE PRODUCTOS*/
+.letra-section{
+    font-size: 25px;
+    text-align: center;
+    margin:0 auto;
+    color: darkred;
+}
