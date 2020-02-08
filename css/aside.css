@@ -1,6 +1,7 @@
 .fondo-aside{
     background-color: #ff6f5e;
-    width:25%;
+    width:35%;
+    vertical-align: top;
 }
 .letra-aside{
     font-size: 30px;
@@ -9,19 +10,11 @@
     margin:0 auto;
     text-align: center;
 }
-.tabla-aside{
-    vertical-align: top;
-}
-.imagen-aside{
-    width:60px;
-    height:60px;
-}
 .formato-noticias{
+    color:white;
     font-size:20px;
     text-decoration: none;
-    color:white;
-    font-weight: bolder;
-    text-align: right;
+    font-family: 'Signika Negative', sans-serif;
 }
 .dimension-tabla-aside{
     width:100%;
@@ -29,5 +22,19 @@
 .separar-noticias{
     padding-bottom: 30px;
     background-color: #f0134d;
-    text-align: justify;
+    text-align: center;
+    border:1px solid white;
+}
+.titulo-aside{
+    font-size: 32px;
+    text-align: center;
+    margin:0 auto;
+    color:white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Patua One', cursive;
+}
+.dimension-imagen-aside{
+    width:100%;
+    height:250px;
 }

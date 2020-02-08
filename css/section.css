@@ -8,14 +8,14 @@
     border-collapse: collapse;
 }
 .dimension-td-index{
-    width:25%;
+    width:50%;
     margin:0 auto;
     text-align: center;
 }
 .borde-imagen-index{
-    border-radius: 52px 52px 200px 52px;
-    -moz-border-radius: 52px 52px 200px 52px;
-    -webkit-border-radius: 52px 52px 200px 52px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
     border: 0px solid #000000;
     padding:10px;
     -webkit-box-shadow: 30px 18px 23px -8px rgba(0,0,0,0.75);
@@ -23,17 +23,34 @@
     box-shadow: 30px 18px 23px -8px rgba(0,0,0,0.75);
 }
 .dimension-imagen-index{
-    width:550px;
-    height:350px;
-    margin:50px;
+    width:350px;
+    height:280px;
+    margin:10px;
 }
 .letra-section-index{
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     margin:0 auto;
     color: darkred;
     padding-top:50px;
+    font-family: 'Patua One', cursive;
 }
+.titulo-section-index{
+    font-size: 44px;
+    text-align: center;
+    margin:0 auto;
+    color:darkred;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Patua One', cursive;
+}
+.texto-section-index{
+    color:darkred;
+    font-size:32px;
+    font-family: 'Signika Negative', sans-serif;
+    margin-top:100px;
+}
+
 /*CSS SECTION PARTE PRODUCTOS*/
 .centrar-iconos-productos{
     margin: 0 auto;
