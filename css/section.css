@@ -1,7 +1,7 @@
 /* Css SECTION PARTE INDEX*/
 .fondo-section-index{
     background-color: #f5f0e3;
-    width:55%;
+    width:50%;
 }
 .dimension-tabla-section-index{
     width:100%;
@@ -94,4 +94,20 @@
     width:50%;
     margin:0 auto;
     text-align: center;
+
+}
+.fondo-section-productos{
+    background-color: #f5f0e3;
+    width:50%;
+}
+/*CSS SECTION PARTE NOTICIA 1*/
+.fondo-section-noticia1{
+    background-color: #f5f0e3;
+    width:50%;
+}
+.titulo-noticia1{
+    font-family: 'Patua One', cursive;
+    font-size: 40px;
+    color:darkred;
+    
 }
