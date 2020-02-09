@@ -1,7 +1,7 @@
 /* Css SECTION PARTE INDEX*/
 .fondo-section-index{
     background-color: #f5f0e3;
-    width:50%;
+    width:55%;
 }
 .dimension-tabla-section-index{
     width:100%;
@@ -23,8 +23,8 @@
     box-shadow: 30px 18px 23px -8px rgba(0,0,0,0.75);
 }
 .dimension-imagen-index{
-    width:350px;
-    height:280px;
+    width:300px;
+    height:230px;
     margin:10px;
 }
 .letra-section-index{
@@ -53,39 +53,30 @@
 
 /*CSS SECTION PARTE PRODUCTOS*/
 .centrar-iconos-productos{
-    margin: 0 auto;
+    width:100%;
+    margin:0 auto;
     text-align: center;
-    padding-top:10px;
-    padding-bottom: 10px;
-    width:60%;
 }
 .borde-figura-productos{
     border-radius: 24px 24px 24px 24px;
     -moz-border-radius: 24px 24px 24px 24px;
     -webkit-border-radius: 24px 24px 24px 24px;
     border: 0px solid #000000;
-    background-color: rgb(240, 140, 122);
-    width:150px;
-    height:100px;
-    text-align: center;
-    line-height: 130px;
-    margin: 0 auto;
-    margin-right:15px;
-    padding:10px;
+    width:120px;
+    height:70px;
+    line-height: 100px;
 }
+
 .borde-productos{
     border-radius: 24px 24px 24px 24px;
     -moz-border-radius: 24px 24px 24px 24px;
     -webkit-border-radius: 24px 24px 24px 24px;
     border: 0px solid #000000;
-    background-color: rebeccapurple;
-    width:400px;
-    height:250px;
+    width:300px;
+    height:220px;
     text-align: center;
-    line-height: 400px;
+    line-height: 220px;
     margin: 0 auto;
-    margin-right:15px;
-    padding:10px;
 }
 .borde-tabla-productos{
     width:100%;
@@ -98,16 +89,41 @@
 }
 .fondo-section-productos{
     background-color: #f5f0e3;
-    width:50%;
+    width:55%;
 }
-/*CSS SECTION PARTE NOTICIA 1*/
-.fondo-section-noticia1{
+/*CSS SECTION PARTE NOTICIA*/
+.fondo-section-noticia{
     background-color: #f5f0e3;
-    width:50%;
+    width:55%;
+    vertical-align: top;
 }
-.titulo-noticia1{
+.titulo-noticia{
     font-family: 'Patua One', cursive;
-    font-size: 40px;
+    font-size: 48px;
     color:darkred;
-    
+}
+.letra-noticia{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    color:darkred;
+}
+.dimension-imagen-noticia{
+    width:100%;
+    height:350px;
+}
+.letra-parrafo-noticia{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 25px;
+    color:darkred;
+    text-align: justify;
+}
+.dimension-iconos-noticia{
+    width:30px;
+    height:30px;
+    margin:15px;
+}
+.borde-noticia{
+    background-color: #f0134d;
+    text-align: center;
+    border:1px solid white;   
 }
