@@ -4,11 +4,10 @@
     text-align: center;
     width:100%;
     padding-top: 50px;
-    padding-bottom: 50px;
     border-radius: 0px 0px 0px 0px;
     -moz-border-radius: 0px 0px 0px 0px;
     -webkit-border-radius: 0px 0px 0px 0px;
-    border: 25px outset #f2a8ff;
+    border: 20px outset #f2a8ff;
 
 }
 .letra-texto{
@@ -17,7 +16,7 @@
     color:rgb(129, 237, 241);
 }
 .letra-reposteria{
-    font-size: 60px;
-    font-family: 'Pacifico', cursive;
+    font-size: 80px;
+    font-family: 'Patua One', cursive;
     color:rgb(246, 169, 133);
 }
