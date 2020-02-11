@@ -169,10 +169,12 @@ html{
     text-decoration: none;
     font-family: 'Signika Negative', sans-serif;
     text-align: center;
+    margin-right: 20px;
 }
 .izquierda{
     text-align:left;
     margin-top:80px;
+    margin-left: 20px;
 }
 
 /*CSS SECTION PARTE NOTICIA*/
