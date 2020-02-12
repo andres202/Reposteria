@@ -261,43 +261,44 @@ html{
         text-align: center;
        }
     #azul{
-        background-color:  #40bfc1;
         grid-area: azul;
+        border:2px solid black;
     }
+
     #azul1{
-        background-color:  #40bfc1;
+       border:2px solid black;
         grid-area:azul1;
     }
     #crema{
-        background-color:  #ff6f5e;
+        border:2px solid black;
         grid-area:crema;
     }
     #crema1{
-        background-color:  #ff6f5e;
+        border:2px solid black;
         grid-area:crema1;
     }
     #rosado{
-        background-color: #f0134d;
+        border:2px solid black;
         grid-area:rosado;
     } 
     #rosado1{
-        background-color: #f0134d;
+        border:2px solid black;
         grid-area:rosado1;
     } 
     #azul2{
-        background-color:  #40bfc1;
+        border:2px solid black;
         grid-area: azul2;
     }
     #azul3{
-        background-color:  #40bfc1;
+        border:2px solid black;
         grid-area:azul3;
     }
     #crema2{
-        background-color:  #ff6f5e;
+        border:2px solid black;
         grid-area:crema2;
     }
     #crema3{
-        background-color:  #ff6f5e;
+        border:2px solid black;
         grid-area:crema3;
     }
     .fondo-section-tabla{
@@ -325,7 +326,7 @@ html{
         border:2px solid  #f0134d;
     }
     .texto-tabla{
-        color:white;
+        color:rgb(0, 0, 0);
         font-size:25px;
         font-family: 'Signika Negative', sans-serif;
         text-align: left;
@@ -352,4 +353,8 @@ html{
         font-size:20px;
         font-family: 'Signika Negative', sans-serif;
         text-align: center;
+    }
+
+    .bajar-boton-kuchen {
+        margin-top: 82px;
     }
