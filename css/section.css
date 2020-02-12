@@ -242,3 +242,114 @@ html{
     color:darkred;
     text-align: justify;
 }
+/*SECTION PARTE DE TABLA DE PRECIOS*/
+    .modo-grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:repeat(5, minmax(200px, auto)) ;
+        grid-template-areas:    "azul azul1"
+                                "crema crema1"
+                                "rosado rosado1"
+                                "azul2 azul3"
+                                "crema2 crema3";
+        row-gap: 10px;
+        column-gap: 20px;
+        width:90%;
+        margin:0 auto;
+        margin-top:100px;
+        margin-bottom:100px;
+        text-align: center;
+       }
+    #azul{
+        background-color:  #40bfc1;
+        grid-area: azul;
+    }
+    #azul1{
+        background-color:  #40bfc1;
+        grid-area:azul1;
+    }
+    #crema{
+        background-color:  #ff6f5e;
+        grid-area:crema;
+    }
+    #crema1{
+        background-color:  #ff6f5e;
+        grid-area:crema1;
+    }
+    #rosado{
+        background-color: #f0134d;
+        grid-area:rosado;
+    } 
+    #rosado1{
+        background-color: #f0134d;
+        grid-area:rosado1;
+    } 
+    #azul2{
+        background-color:  #40bfc1;
+        grid-area: azul2;
+    }
+    #azul3{
+        background-color:  #40bfc1;
+        grid-area:azul3;
+    }
+    #crema2{
+        background-color:  #ff6f5e;
+        grid-area:crema2;
+    }
+    #crema3{
+        background-color:  #ff6f5e;
+        grid-area:crema3;
+    }
+    .fondo-section-tabla{
+        background-color: #f5f0e3;
+        width:60%;
+        vertical-align: top;
+    }
+    .borde-texto-tabla{
+        width:100%;
+        text-align: center;
+        background-color: #f0134d; 
+    }
+    .titulo-tabla{
+        font-size: 40px;
+        color:white;
+        font-family: 'Patua One', cursive;
+    }
+    .borde-imagen-tabla{
+        border-radius: 24px 24px 24px 24px;
+        -moz-border-radius: 24px 24px 24px 24px;
+        -webkit-border-radius: 24px 24px 24px 24px;
+        border: 0px solid #000000;
+        width:200px;
+        height:150px;
+        border:2px solid  #f0134d;
+    }
+    .texto-tabla{
+        color:white;
+        font-size:25px;
+        font-family: 'Signika Negative', sans-serif;
+        text-align: left;
+        padding-left:30px;
+    }
+    .boton-tabla{
+        border-radius: 12px 12px 12px 12px;
+        -moz-border-radius: 12px 12px 12px 12px;
+        -webkit-border-radius: 12px 12px 12px 12px;
+        border: 0px solid #000000;
+        background-color:  #f0134d;
+        width:50%;
+        margin:0 auto;
+        text-align: center;
+    }
+    .texto-precio{
+        color:white;
+        font-size:50px;
+        font-family: 'Signika Negative', sans-serif;
+        text-align: center
+    }
+    .texto-disponible{
+        color:white;
+        font-size:20px;
+        font-family: 'Signika Negative', sans-serif;
+        text-align: center;
+    }
