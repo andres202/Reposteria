@@ -1,27 +1,19 @@
 .fondo-aside{
-    background-color: #ff6f5e;
+    background-color: #f5f0e3;
     width:25%;
     vertical-align: top;
 }
-.letra-aside{
-    font-size: 30px;
-    font-family: 'Pacifico', cursive;
-    color:#f0134d;
-    margin:0 auto;
-    text-align: center;
-}
 .formato-noticias{
-    color:white;
     font-size:20px;
     text-decoration: none;
     font-family: 'Signika Negative', sans-serif;
+    color:black;
 }
 .dimension-tabla-aside{
     width:100%;
 }
 .separar-noticias{
     padding-bottom: 30px;
-    background-color: #f0134d;
     text-align: center;
     border:1px solid white;
 }
@@ -29,7 +21,6 @@
     font-size: 32px;
     text-align: center;
     margin:0 auto;
-    color:white;
     margin-bottom: 50px;
     margin-top: 50px;
     font-family: 'Patua One', cursive;
@@ -46,12 +37,11 @@
 }
 .separar-videos{
     padding-bottom: 30px;
-    background-color: #f0134d;
     text-align: center;
     border:1px solid white;
 }
 .formato-videos{
-    color:white;
+    color:#40bfc1;
     font-size:20px;
     text-decoration: none;
     font-family: 'Signika Negative', sans-serif;

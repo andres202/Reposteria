@@ -1,6 +1,6 @@
 /* Css SECTION PARTE INDEX*/
 .fondo-section-index{
-    background-color: #f5f0e3;
+    background-color: white;
     width:60%;
 }
 .dimension-tabla-section-index{
@@ -100,10 +100,13 @@
     text-align: center;
     padding-top: 70px;
     padding-bottom: 70px;
-    background-color: white;
+    background-color:  #f5f0e3;
+}
+.margen-texto{
+    margin-bottom:100px;
 }
 .fondo-section-productos{
-    background-color: #f5f0e3;
+    background-color:white;
     width:60%;
 }
 .boton-productos{
@@ -123,6 +126,22 @@ html{
     font-size: 40px;
     text-align: center;
     margin:0 auto;
+    color:darkred;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Patua One', cursive;
+    text-decoration: none ;
+}
+.link-revisar-precios{
+    text-align: center;
+    margin:0 auto;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+.titulo-productos-blanco{
+    font-size: 40px;
+    text-align: center;
+    margin:0 auto;
     color:white;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -130,6 +149,13 @@ html{
     text-decoration: none;
 }
 .texto-productos{
+    color:darkred;
+    font-size:25px;
+    text-decoration: none;
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+}
+.texto-productos-blanco{
     color:white;
     font-size:25px;
     text-decoration: none;
@@ -179,7 +205,7 @@ html{
 
 /*CSS SECTION PARTE NOTICIA*/
 .fondo-section-noticia{
-    background-color: #f5f0e3;
+    background-color:white;
     width:60%;
     vertical-align: top;
 }
@@ -199,7 +225,7 @@ html{
 }
 .letra-parrafo-noticia{
     font-family: 'Signika Negative', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color:darkred;
     text-align: justify;
     margin-bottom:100px;
@@ -218,7 +244,7 @@ html{
 .link-noticia{
     text-decoration: none;
     font-family: 'Signika Negative', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color:darkred;
 }
 .margen{
@@ -230,7 +256,7 @@ html{
 }
 .letra-lista{
     font-family: 'Signika Negative', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color:darkred;
     text-align: justify;
     margin-bottom:100px;
@@ -238,21 +264,16 @@ html{
 
 .letra-parrafo-lista{
     font-family: 'Signika Negative', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color:darkred;
     text-align: justify;
 }
 /*SECTION PARTE DE TABLA DE PRECIOS*/
     .modo-grid{
         display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows:repeat(5, minmax(200px, auto)) ;
-        grid-template-areas:    "azul azul1"
-                                "crema crema1"
-                                "rosado rosado1"
-                                "azul2 azul3"
-                                "crema2 crema3";
-        row-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:repeat(4, minmax(200px, auto)) ;
+        row-gap: 15px;
         column-gap: 20px;
         width:90%;
         margin:0 auto;
@@ -260,61 +281,20 @@ html{
         margin-bottom:100px;
         text-align: center;
        }
-    #azul{
-        grid-area: azul;
-        border:2px solid black;
-    }
 
-    #azul1{
-       border:2px solid black;
-        grid-area:azul1;
-    }
-    #crema{
-        border:2px solid black;
-        grid-area:crema;
-    }
-    #crema1{
-        border:2px solid black;
-        grid-area:crema1;
-    }
-    #rosado{
-        border:2px solid black;
-        grid-area:rosado;
-    } 
-    #rosado1{
-        border:2px solid black;
-        grid-area:rosado1;
-    } 
-    #azul2{
-        border:2px solid black;
-        grid-area: azul2;
-    }
-    #azul3{
-        border:2px solid black;
-        grid-area:azul3;
-    }
-    #crema2{
-        border:2px solid black;
-        grid-area:crema2;
-    }
-    #crema3{
-        border:2px solid black;
-        grid-area:crema3;
-    }
     .fondo-section-tabla{
-        background-color: #f5f0e3;
+        background-color: white;
         width:60%;
         vertical-align: top;
     }
     .borde-texto-tabla{
         width:100%;
         text-align: center;
-        background-color: #f0134d; 
     }
     .titulo-tabla{
-        font-size: 40px;
-        color:white;
+        font-size: 25px;
         font-family: 'Patua One', cursive;
+        color:darkred;
     }
     .borde-imagen-tabla{
         border-radius: 24px 24px 24px 24px;
@@ -323,38 +303,25 @@ html{
         border: 0px solid #000000;
         width:200px;
         height:150px;
-        border:2px solid  #f0134d;
+        border:2px solid  #ff6f5e;
     }
     .texto-tabla{
-        color:rgb(0, 0, 0);
-        font-size:25px;
+        font-size:18px;
         font-family: 'Signika Negative', sans-serif;
-        text-align: left;
-        padding-left:30px;
-    }
-    .boton-tabla{
-        border-radius: 12px 12px 12px 12px;
-        -moz-border-radius: 12px 12px 12px 12px;
-        -webkit-border-radius: 12px 12px 12px 12px;
-        border: 0px solid #000000;
-        background-color:  #f0134d;
-        width:50%;
-        margin:0 auto;
-        text-align: center;
+        text-align: justify;
     }
     .texto-precio{
-        color:white;
-        font-size:50px;
-        font-family: 'Signika Negative', sans-serif;
-        text-align: center
-    }
-    .texto-disponible{
-        color:white;
-        font-size:20px;
+        font-size:18px;
         font-family: 'Signika Negative', sans-serif;
         text-align: center;
     }
-
-    .bajar-boton-kuchen {
-        margin-top: 82px;
+    .texto-disponible{
+        font-size:17px;
+        font-family: 'Signika Negative', sans-serif;
+        text-align: center;
+    }
+    .titulo-tabla-precios{
+        font-size: 40px;
+        font-family: 'Patua One', cursive;
+        color:darkred;
     }

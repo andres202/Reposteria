@@ -4,19 +4,11 @@
     text-align: center;
     width:100%;
     padding-top: 50px;
-    border-radius: 0px 0px 0px 0px;
-    -moz-border-radius: 0px 0px 0px 0px;
-    -webkit-border-radius: 0px 0px 0px 0px;
-    border: 20px outset #f2a8ff;
+    border: 15px outset #f2a8ff;
 
-}
-.letra-texto{
+}.letra-texto{
     font-size: 100px;
     font-family: 'Molle', cursive;
     color:rgb(129, 237, 241);
 }
-.letra-reposteria{
-    font-size: 80px;
-    font-family: 'Patua One', cursive;
-    color:rgb(246, 169, 133);
-}
+
