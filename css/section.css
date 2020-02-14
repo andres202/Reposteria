@@ -2,53 +2,56 @@
 .fondo-section-index{
     background-color: white;
     width:60%;
+    text-align:center;
 }
-.dimension-tabla-section-index{
-    width:100%;
-    border-collapse: collapse;
-}
-.dimension-td-index{
-    width:50%;
-    margin:0 auto;
-    text-align: center;
-}
-.borde-imagen-index{
-    border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
+.dimension-imagen-destacada{
+    width:600px;
+    height:500px;
+    border-radius: 43px 43px 43px 43px;
+    -moz-border-radius: 43px 43px 43px 43px;
+    -webkit-border-radius: 43px 43px 43px 43px;
     border: 0px solid #000000;
-    padding:10px;
-    -webkit-box-shadow: 30px 18px 23px -8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 30px 18px 23px -8px rgba(0,0,0,0.75);
-    box-shadow: 30px 18px 23px -8px rgba(0,0,0,0.75);
-}
-.dimension-imagen-index{
-    width:350px;
-    height:240px;
-    margin:10px;
 }
 .letra-section-index{
-    font-size: 35px;
-    text-align: center;
-    margin:0 auto;
+    font-size: 30px;
     color: darkred;
-    padding-top:50px;
-    font-family: 'Patua One', cursive;
+    font-family: 'Bad Script', cursive;
+    font-weight:bolder;
+    font-style:italic;
 }
 .titulo-section-index{
-    font-size: 44px;
-    text-align: center;
-    margin:0 auto;
+    font-size: 35px;
     color:darkred;
     margin-bottom: 50px;
     margin-top: 50px;
-    font-family: 'Patua One', cursive;
+    font-family: 'Bad Script', cursive;
+    font-weight:bolder;
+    font-style: italic;
 }
 .texto-section-index{
     color:darkred;
-    font-size:32px;
     font-family: 'Signika Negative', sans-serif;
-    margin-top:100px;
+}
+.dimension-imagen-index{
+    width:300px;
+    height:200px;
+    border-radius: 43px 43px 43px 43px;
+    -moz-border-radius: 43px 43px 43px 43px;
+    -webkit-border-radius: 43px 43px 43px 43px;
+    border: 0px solid #000000;
+    margin-bottom: 70px;
+    -webkit-box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
+    -moz-box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
+    box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
+}
+.modo-grid-index{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    width:70%;
+    text-align:justify;
+    column-gap: 50px;
+    margin: 0 auto;
 }
 
 /*CSS SECTION PARTE PRODUCTOS*/
@@ -56,8 +59,7 @@
     width:60%;
     margin:0 auto;
     text-align: center;
-    margin-bottom: 100px;
-    margin-top:100px;
+    margin-bottom: 70px;
 }
 .borde-figura-productos{
     border-radius: 24px 24px 24px 24px;
@@ -103,11 +105,12 @@
     background-color:  #f5f0e3;
 }
 .margen-texto{
-    margin-bottom:100px;
+    margin-bottom:70px;
 }
 .fondo-section-productos{
     background-color:white;
     width:60%;
+    text-align: center;
 }
 .boton-productos{
     border-radius: 12px 12px 12px 12px;
@@ -123,14 +126,13 @@ html{
     scroll-behavior:smooth;
 }
 .titulo-productos{
-    font-size: 40px;
-    text-align: center;
-    margin:0 auto;
+    font-size: 35px;
     color:darkred;
     margin-bottom: 50px;
     margin-top: 50px;
-    font-family: 'Patua One', cursive;
-    text-decoration: none ;
+    font-family: 'Bad Script', cursive;
+    font-weight:bolder;
+    font-style: italic;
 }
 .link-revisar-precios{
     text-align: center;
@@ -149,11 +151,11 @@ html{
     text-decoration: none;
 }
 .texto-productos{
-    color:darkred;
-    font-size:25px;
-    text-decoration: none;
-    font-family: 'Signika Negative', sans-serif;
-    text-align: center;
+    font-size: 30px;
+    color: darkred;
+    font-family: 'Bad Script', cursive;
+    font-weight:bolder;
+    font-style:italic;
 }
 .texto-productos-blanco{
     color:white;
