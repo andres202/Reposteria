@@ -23,8 +23,8 @@
     box-shadow: 30px 18px 23px -8px rgba(0,0,0,0.75);
 }
 .dimension-imagen-index{
-    width:350px;
-    height:240px;
+    width:380px;
+    height:260px;
     margin:10px;
 }
 .letra-section-index{
@@ -46,7 +46,7 @@
 }
 .texto-section-index{
     color:darkred;
-    font-size:32px;
+    font-size:28px;
     font-family: 'Signika Negative', sans-serif;
     margin-top:100px;
 }

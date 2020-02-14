@@ -35,3 +35,8 @@
     font-family: 'Patua One', cursive;
 }
 
+.borde-nav:hover {
+    height: 80px;
+    width: 100%;
+}
+
