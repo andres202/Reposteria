@@ -255,17 +255,36 @@ html{
     text-align: center;
     border:1px solid white;   
 }
-.link-noticia{
+.link-noticia-despues{
     text-decoration: none;
     font-family: 'Signika Negative', sans-serif;
     color:darkred;
 }
+.link-noticia-antes{
+    text-decoration: none;
+    font-family: 'Signika Negative', sans-serif;
+    color:darkred;
+}
+.link-noticia-antes::before{
+    content:"";
+    display:inline-block;
+    background: url(../resources/iconos/left-arrow.png);
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+    margin-right:15px;
+}
+.link-noticia-despues::after{
+    content:"";
+    display:inline-block;
+    background: url(../resources/iconos/right-arrow.png);
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+    margin-left: 15px;
+}
 .margen{
     margin-bottom:70px;
-}
-.flecha{
-    width:20px;
-    height:20px;
 }
 .letra-lista{
     font-family: 'Signika Negative', sans-serif;
@@ -314,6 +333,15 @@ html{
     font-family: 'Signika Negative', sans-serif;
     text-align: center;
 }
+.texto-precio::before{
+    content:"";
+    display:inline-block;
+    background: url(../resources/iconos/money.png);
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
 .texto-disponible{
     font-family: 'Signika Negative', sans-serif;
     text-align: center;
@@ -347,6 +375,25 @@ html{
     font-style: italic;
     text-align: center;
 }
+.subtitulo-evento{
+    font-size: 30px;
+    color:darkred;
+    font-family: 'Bad Script', cursive;
+    font-weight:bolder;
+    font-style: italic;
+    text-align: center;
+    margin-top:50px;
+}
+.subtitulo-tres-eventos{
+    font-size: 20px;
+    color:darkred;
+    margin-top: 50px;
+    font-family: 'Bad Script', cursive;
+    font-weight:bolder;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 60px;
+}
 .dimension-imagen-evento{
     width:80px;
     height:80px;
@@ -359,11 +406,11 @@ html{
     color:darkred;
 }
 .texto-tres-evento{
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    padding-bottom: 50px;
     text-align: center;
     font-family: 'Signika Negative', sans-serif;
     color:darkred;
-    padding-top:50px;
 }
 .titulo-evento{
     text-align: center;
@@ -371,11 +418,17 @@ html{
 .modo-grid-tres-eventos{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: minmax(150, auto) minmax(100%, auto);
+    grid-template-rows: minmax(50px, auto) minmax(50px, auto) minmax(250px, auto) minmax(50px,auto) minmax(30px, auto);
     margin:0 auto;
     text-align: center;
-    grid-template-areas: "N1 N2 N3"
-                        "N4 N4 N4";
+    grid-template-areas:"T1 T1 T1"
+                        "N1 N2 N3" 
+                        "N4 N5 N6"
+                        "N7 N8 N9"
+                        "N10 N10 N10";
+}
+#T1{
+    grid-area:T1;
 }
 #N1{
     grid-area:N1;
@@ -389,6 +442,24 @@ html{
 #N4{
     grid-area:N4;
 }
+#N5{
+    grid-area:N5;
+}
+#N6{
+    grid-area:N6;
+}
+#N7{
+    grid-area:N7;
+}
+#N8{
+    grid-area:N8;
+}
+#N9{
+    grid-area:N9;
+}
+#N10{
+    grid-area:N10;
+}
 .imagen-eventos{
     width:200px;
     height:300px;
@@ -396,4 +467,8 @@ html{
     -moz-border-radius: 53px 53px 53px 53px;
     -webkit-border-radius: 53px 53px 53px 53px;
     border: 0px solid #000000;
+    margin-bottom: 30px;
 }
+Freepik(flecha)
+Icons made by <a href="https://www.flaticon.com/authors/dimitry-miroliubov" title="Dimitry Miroliubov">Dimitry Miroliubov</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>

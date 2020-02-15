@@ -11,6 +11,15 @@
     text-decoration: none;
     font-family: 'Signika Negative', sans-serif;
 }
+.texto-nav::after{
+    content:"";
+    display:inline-block;
+    background: url(../resources/iconos/click.png);
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+    margin-left:15px;
+}
 .borde-nav{
     border-radius: 0px 0px 0px 0px;
     -moz-border-radius: 0px 0px 0px 0px;
@@ -23,6 +32,13 @@
     text-align: center;
     margin: 0 auto;
     font-family: 'Signika Negative', sans-serif;
+    transition: all 2s;
+}
+.borde-nav:hover{
+    width:100%;
+    height:90px;
+    padding-top:20px;
+    border-radius:10px;
 }
 .titulo-nav{
     font-size: 25px;
