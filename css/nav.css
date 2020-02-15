@@ -1,12 +1,11 @@
-.fondo-nav{
-    background-color: #f5f0e3;
-    width:15%;
-    vertical-align: top;
+.modo-grid-nav{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat(4, auto) ;
+    margin: 0 auto;
+    margin-bottom: 100px;
 }
 
-.tabla-nav {
-    width: 100%;
-}
 .texto-nav{
     color:white;
     text-decoration: none;

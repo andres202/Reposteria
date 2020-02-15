@@ -1,12 +1,41 @@
+.modo-grid-pagina{
+    display:grid;
+    grid-template-columns: 2fr 7fr 3fr;
+    grid-template-rows: minmax(150px, auto) minmax(150px, auto) minmax(400px, auto) minmax(150px, auto);
+    grid-template-areas: "header header header"
+                        "nav section aside"
+                        "n1 section aside"
+                        "footer footer footer";
+    width:85%;
+    margin:0 auto;
+}
+header{
+    grid-area: header;
+    background-color:  #f0134d;
+}
+nav{
+    grid-area:nav;
+    background-color: #f5f0e3;
+}
+section{
+    grid-area:section;
+    background-color:  white;
+}
+aside{
+    grid-area:aside;
+    background-color:  #f5f0e3;
+}
+footer{
+    grid-area:footer;
+    background-color:#40bfc1;
+}
 .fondo-titulo{
-    background-color: #f0134d;
     margin: 0 auto;
     text-align: center;
     width:100%;
     padding-top: 50px;
-    border: 15px outset #f2a8ff;
-
-}.letra-texto{
+}
+.letra-texto{
     font-size: 100px;
     font-family: 'Molle', cursive;
     color:rgb(129, 237, 241);
