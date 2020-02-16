@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/section.css">
     <link rel="stylesheet" href="css/aside.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/body.css">
     <link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Signika+Negative&display=swap" rel="stylesheet">
@@ -20,9 +19,9 @@
 </head>
 
 <body class="modo-grid-pagina">
-    <header class="fondo-titulo">
+    <header class="fondo-logo">
         <img src="resources/iconos/reposteria.png">
-        <h1 class="letra-texto">Crema de Chantilly</h1>
+        <h1 class="letra-logo">Crema de Chantilly</h1>
     </header>
     <nav class="fondo-section-index">
         <div>
@@ -31,7 +30,7 @@
         <div class="modo-grid-nav">
 
             <div class="borde-nav">
-                <a href="index.html"class="texto-nav">HOME</a>
+                <a href="index.html" class="texto-nav">HOME</a>
             </div>
             <div class="borde-nav">
                 <a href="productos.html" class="texto-nav">PRODUCTOS</a>
@@ -45,62 +44,79 @@
         </div>
     </nav>
     <section>
-    <div class="titulo-evento">Eventos</div>
-    <div class="modo-grid-eventos">
-        <div>
-            <img src="resources/iconos/heart.png" class="dimension-imagen-evento">
-            <div class="texto-evento">San Valentin</div>
+        <div class="titulo-evento">Eventos</div>
+        <div id="eventos" class="modo-grid-eventos">
+            <div>
+                <a href="#amor">
+                    <img src="resources/iconos/heart.png" class="dimension-imagen-evento">
+                </a>
+                <div class="texto-evento">San Valentin</div>
+            </div>
+            <div>
+                <a href="#bruja">
+                    <img src="resources/iconos/pumpkin.png" class="dimension-imagen-evento">
+                </a>
+                <div class="texto-evento">Halloween</div>
+            </div>
+            <div>
+                <a href="#santa">
+                    <img src="resources/iconos/santa-claus-boot.png" class="dimension-imagen-evento">
+                </a>
+                <div class="texto-evento">Navidad</div>
+            </div>
         </div>
-        <div>
-            <img src="resources/iconos/pumpkin.png" class="dimension-imagen-evento">
-            <div class="texto-evento">Halloween</div>
+        <div class="modo-grid-tres-eventos">
+            <div id="amor" class="T1 subtitulo-evento">San Valentin</div>
+            <div id="N1" class="subtitulo-tres-eventos">Gomitas de Corazón</div>
+            <div id="N2" class="subtitulo-tres-eventos">Malvaviscos de Amor</div>
+            <div id="N3" class="subtitulo-tres-eventos">Cupcakes Amorosos</div>
+            <div id="N4"><img src="resources/imagenes/SANVALENTIN3.jpg" class="imagen-eventos"></div>
+            <div id="N5"><img src="resources/imagenes/MALVADISCOSsan.jpg" class="imagen-eventos"></div>
+            <div id="N6"><img src="resources/imagenes/san-valentin.jpg" class="imagen-eventos"></div>
+            <div id="N7" class="texto-tres-evento">500 gr. $2.000</div>
+            <div id="N8" class="texto-tres-evento">6 x $2.990</div>
+            <div id="N9" class="texto-tres-evento">6 x $4.490</div>
+            <div id="N10" class="texto-descripcion-evento">
+                Productos especiales para este Día del Amor, malvaviscos con crema, <br>gomitas caseras y tortas de amor
+                para regalar a tu media naranja.
+                <a href="#eventos" class="volver-up">Volver arriba</a>
+            </div>
         </div>
-        <div>
-            <img src="resources/iconos/santa-claus-boot.png" class="dimension-imagen-evento">
-            <div class="texto-evento">Navidad</div>
+        <div class="modo-grid-tres-eventos">
+            <div id="bruja" class="subtitulo-evento T1">Halloween</div>
+            <div id="N1" class="subtitulo-tres-eventos">Torta de Escalofríos</div>
+            <div id="N2" class="subtitulo-tres-eventos">Galletas de Miedo</div>
+            <div id="N3" class="subtitulo-tres-eventos">Cupcakes Terroríficos</div>
+            <div id="N4"><img src="resources/imagenes/torta-halloween2.jpg" class="imagen-eventos"></div>
+            <div id="N5"><img src="resources/imagenes/galletashalloween1.jpg" class="imagen-eventos"></div>
+            <div id="N6"><img src="resources/imagenes/Halloween.jpg" class="imagen-eventos"></div>
+            <div id="N7" class="texto-tres-evento">1 x $14.990</div>
+            <div id="N8" class="texto-tres-evento">12 x $2.490</div>
+            <div id="N9" class="texto-tres-evento">6 x $4.490</div>
+            <div id="N10" class="texto-descripcion-evento">
+                Productos especiales para esta Noche de Brujas, tortas, cupcakes, <br>galletas diseñadas para compartir
+                con tu familia y amigos.
+                <a href="#eventos" class="volver-up">Volver arriba</a>
+            </div>
         </div>
-    </div>
-    <div class="modo-grid-tres-eventos">
-        <div id="T1" class="subtitulo-evento">San Valentin</div>
-        <div id="N1" class="subtitulo-tres-eventos">Gomitas de Corazón</div>
-        <div id="N2" class="subtitulo-tres-eventos">Malvadiscos de Amor</div>
-        <div id="N3" class="subtitulo-tres-eventos">Cupcakes Amoroso</div>
-        <div id="N4"><img src="resources/imagenes/SANVALENTIN3.jpg" class="imagen-eventos"></div>
-        <div id="N5"><img src="resources/imagenes/MALVADISCOSsan.jpg"class="imagen-eventos"></div>
-        <div id="N6"><img src="resources/imagenes/san-valentin.jpg" class="imagen-eventos"></div>
-        <div id="N7" class="texto-tres-evento">500 gr. $</div>
-        <div id="N8" class="texto-tres-evento">6 x $</div>
-        <div id="N9" class="texto-tres-evento">6 x $</div>
-        <div id="N10" class="texto-tres-evento">Productos especiales para este Día del Amor, galletas, gomitas y tortas para regalar a tu media naranja.</div>
-    </div>
-    <div class="modo-grid-tres-eventos">
-        <div id="T1" class="subtitulo-evento">Halloween</div>
-        <div id="N1" class="subtitulo-tres-eventos">Torta de Escalofrios</div>
-        <div id="N2" class="subtitulo-tres-eventos">Tarta de Calabaza</div>
-        <div id="N3" class="subtitulo-tres-eventos">Cupcakes Terroríficos</div>
-        <div id="N4"><img src="resources/imagenes/torta-halloween2.jpg" class="imagen-eventos"></div>
-        <div id="N5"><img src="resources/imagenes/tarta-de-zapallo1.jpg"class="imagen-eventos" ></div>
-        <div id="N6"><img src="resources/imagenes/Halloween.jpg" class="imagen-eventos"></div>
-        <div id="N7" class="texto-tres-evento">1 x $</div>
-        <div id="N8" class="texto-tres-evento">6 x $</div>
-        <div id="N9" class="texto-tres-evento">6 x $</div>
-        <div id="N10" class="texto-tres-evento">Productos especiales para esta Noche de Brujas, tortas, cupcakes, tartas de calabaza para compartir con tu familia y amigos.</div>        
-    </div>
-    <div class="modo-grid-tres-eventos">
-        <div id="T1" class="subtitulo-evento">Navidad</div>
-        <div id="N1" class="subtitulo-tres-eventos">Pan de Pascua</div>
-        <div id="N2" class="subtitulo-tres-eventos">Torta Navideña</div>
-        <div id="N3" class="subtitulo-tres-eventos">Galletas de Jengibre</div>
-        <div id="N4"><img src="resources/imagenes/PAN DE PASCUA1.jpg" class="imagen-eventos"></div>
-        <div id="N5"><img src="resources/imagenes/pastel navideño1.jpg"class="imagen-eventos" ></div>
-        <div id="N6"><img src="resources/imagenes/galletas-de-navidad.jpg" class="imagen-eventos"></div>
-        <div id="N7" class="texto-tres-evento">1 x $</div>
-        <div id="N8" class="texto-tres-evento">1 x $</div>
-        <div id="N9" class="texto-tres-evento">12 x $</div>
-        <div id="N10" class="texto-tres-evento">Productos especiales para esta Navidad, pan de pascua, galletas de jengibre y tortas. Productos para regalar y compartir con tus seres queridos.</div>
-    </div>
-</section>
-
+        <div class="modo-grid-tres-eventos">
+            <div id="santa" class="subtitulo-evento T1">Navidad</div>
+            <div id="N1" class="subtitulo-tres-eventos">Pan de Pascua</div>
+            <div id="N2" class="subtitulo-tres-eventos">Torta Navideña</div>
+            <div id="N3" class="subtitulo-tres-eventos">Galletas de Jengibre</div>
+            <div id="N4"><img src="resources/imagenes/PAN DE PASCUA1.jpg" class="imagen-eventos"></div>
+            <div id="N5"><img src="resources/imagenes/pastel navideño1.jpg" class="imagen-eventos"></div>
+            <div id="N6"><img src="resources/imagenes/galletasnavidad1.jpg" class="imagen-eventos"></div>
+            <div id="N7" class="texto-tres-evento">1 x $2.490</div>
+            <div id="N8" class="texto-tres-evento">1 x $15.990</div>
+            <div id="N9" class="texto-tres-evento">12 x $2.990</div>
+            <div id="N10" class="texto-descripcion-evento">
+                Productos especiales para esta Navidad, pan de pascua, galletas de jengibre y tortas. <br>Productos para
+                regalar y compartir con tus seres queridos.
+                <a href="#eventos" class="volver-up">Volver arriba</a>
+            </div>
+        </div>
+    </section>
     <aside>
         <p class="titulo-aside">Últimas Noticias</p>
         <div class="modo-grid-aside separar-noticias">
@@ -122,16 +138,16 @@
         </div>
     </aside>
     <footer class="letra-footer">
-        <p>Contenidos bajo licencia *********** salvo donde indique lo contrario.|
+        <p>Contenidos bajo licencia *********** salvo donde indique lo contrario.|<br>
             Basado en Sistema ************.<br>
-            Desarrollado por Vallejos C. and Nur A. 2020 , Lota/Coronel, Región del Bío Bío| Lugar,
-            Chile.<br>
-            Número de Contacto (41) 2 XX XX XX<br>
-            Icons Designed by Darius and Pixel perfect from www.flaticon.com
+            Desarrollado por Vallejos C. and Nur A. 2020 <br>
+            Lota/Coronel, Región del Bío Bío | Lugar, Chile.<br>
+            Número de Contacto (41) 2 98 76 54 | 9 876 543 21<br>
+            Icons Designed by Darius and Pixel perfect, Pixelmeetup, Dimitry Miroliubov, Freepik from www.flaticon.com
         </p>
         <div>
             <a href="https://www.facebook.com/" target="_blank">
-                <img src="resources/iconos/facebook.png"class="dimension-iconos">
+                <img src="resources/iconos/facebook.png" class="dimension-iconos">
             </a>
             <a href="https://twitter.com/" target="_blank">
                 <img src="resources/iconos/twitter.png" class="dimension-iconos">

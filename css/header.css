@@ -29,13 +29,13 @@ footer{
     grid-area:footer;
     background-color:#40bfc1;
 }
-.fondo-titulo{
+.fondo-logo{
     margin: 0 auto;
     text-align: center;
     width:100%;
     padding-top: 50px;
 }
-.letra-texto{
+.letra-logo{
     font-size: 100px;
     font-family: 'Molle', cursive;
     color:rgb(129, 237, 241);

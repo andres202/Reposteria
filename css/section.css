@@ -110,7 +110,7 @@
 .modo-grid-productos2{
     display:grid;
     grid-template-columns: 1 2fr;
-    grid-template-rows: minmax(50px, auto) minmax(200px, auto) minmax(100px, auto) minmax(10px,auto);
+    grid-template-rows: minmax(50px, auto) minmax(200px, auto) minmax(70px, auto) minmax(10px,auto);
     grid-template-areas:"Title Title"
                         "Descrip Foto"
                         "Dispon Dispon"
@@ -190,12 +190,6 @@ html{
     font-style: italic;
     text-align: center;
 }
-.link-revisar-precios{
-    text-align: center;
-    margin:0 auto;
-    padding-bottom: 50px;
-    padding-top: 100px;
-}
 .subtitulo-productos{
     font-size: 30px;
     color:darkred;
@@ -206,14 +200,6 @@ html{
     font-style: italic;
     text-align: center;
 }
-.texto-productos{
-    font-size: 30px;
-    color: darkred;
-    font-family: 'Bad Script', cursive;
-    font-weight:bolder;
-    font-style:italic;
-}
-
 .letra-productos{
     font-family: 'Signika Negative', sans-serif;
     color:darkred;
@@ -266,10 +252,11 @@ html{
     background-color:  #f0134d;
     margin:0 auto;
     text-align: center;
-    width:200px;
+    width:150px;
     height:60px;
     line-height: 60px;
     color:white;
+    margin-bottom:100px;
 }
 .derecha{
     text-align:right;
@@ -471,6 +458,13 @@ html{
     width:80px;
     height:80px;
     padding-top: 50px;
+    transition:all 2s;
+}
+.dimension-imagen-evento:hover{
+    width:70px;
+    height:70px;
+    margin-top:5px;
+    margin-bottom:5px;
 }
 .texto-evento{
     padding-bottom: 100px;
@@ -485,8 +479,39 @@ html{
     font-family: 'Signika Negative', sans-serif;
     color:darkred;
 }
-.titulo-evento{
+.texto-tres-evento::before{
+    content:"";
+    display:inline-block;
+    background: url(../resources/iconos/money.png);
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+    margin-right:15px;
+}
+.texto-descripcion-evento{
+    padding-bottom: 50px;
+    padding-bottom: 50px;
     text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    color:darkred;
+}
+.volver-up{
+    padding-bottom: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    color:darkred;
+    text-decoration: none;
+    margin-left:50px;
+}
+.volver-up::after{
+    content:"";
+    display:inline-block;
+    background: url(../resources/iconos/system.png);
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+    margin-left:15px;
 }
 .modo-grid-tres-eventos{
     display:grid;
@@ -500,7 +525,7 @@ html{
                         "N7 N8 N9"
                         "N10 N10 N10";
 }
-#T1{
+.T1{
     grid-area:T1;
 }
 #N1{
@@ -542,3 +567,4 @@ html{
     border: 0px solid #000000;
     margin-bottom: 30px;
 }
+

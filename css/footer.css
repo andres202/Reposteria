@@ -1,12 +1,8 @@
-.fondo-footer{
-    background-color: #40bfc1;
-    width:100%;
-}
 .letra-footer{
     color:white;
-    text-align: center;
-    width:100%;
     font-family: 'Signika Negative', sans-serif;
+    padding-left: 50px;
+    padding-top:50px;
 }
 .dimension-iconos{
     width:30px;
