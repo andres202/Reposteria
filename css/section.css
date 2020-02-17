@@ -200,6 +200,15 @@ html{
     font-style: italic;
     text-align: center;
 }
+.presentacion-productos{
+    font-size: 20px;
+    color:darkred;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Signika Negative', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
 .letra-productos{
     font-family: 'Signika Negative', sans-serif;
     color:darkred;
@@ -402,6 +411,15 @@ html{
     vertical-align: middle;
     margin-right: 15px;
 }
+.presentacion-tabla{
+    font-size: 20px;
+    color:darkred;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Signika Negative', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
 .texto-disponible{
     font-family: 'Signika Negative', sans-serif;
     text-align: center;
@@ -442,7 +460,7 @@ html{
     font-weight:bolder;
     font-style: italic;
     text-align: center;
-    margin-top:50px;
+    margin-top:30px;
 }
 .subtitulo-tres-eventos{
     font-size: 20px;
@@ -452,7 +470,7 @@ html{
     font-weight:bolder;
     font-style: italic;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 .dimension-imagen-evento{
     width:80px;
@@ -490,7 +508,6 @@ html{
 }
 .texto-descripcion-evento{
     padding-bottom: 50px;
-    padding-bottom: 50px;
     text-align: center;
     font-family: 'Signika Negative', sans-serif;
     color:darkred;
@@ -516,7 +533,7 @@ html{
 .modo-grid-tres-eventos{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: minmax(50px, auto) minmax(50px, auto) minmax(250px, auto) minmax(50px,auto) minmax(30px, auto);
+    grid-template-rows: minmax(50px, auto) minmax(50px, auto) minmax(250px, auto) minmax(30px,auto) minmax(30px, auto);
     margin:0 auto;
     text-align: center;
     grid-template-areas:"T1 T1 T1"
@@ -566,5 +583,18 @@ html{
     -webkit-border-radius: 53px 53px 53px 53px;
     border: 0px solid #000000;
     margin-bottom: 30px;
+}
+.margen-link-eventos{
+    margin-top: 30px;
+    text-align: right;
+}
+.presentacion-eventos{
+    font-size: 20px;
+    color:darkred;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Signika Negative', sans-serif;
+    font-style: italic;
+    text-align: center;
 }
 

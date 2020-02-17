@@ -81,5 +81,9 @@ input{
 }
 .dimension-imagen-marcas{
     width:70%;
-    height:50px;
+    height:100px;
+}
+.audio-nav{
+    width:90%;
+    margin-left: 10px;
 }
