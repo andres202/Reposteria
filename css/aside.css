@@ -17,13 +17,13 @@
     color:darkred;
 }
 .dimension-imagen-aside{
-    width:85%;
-    height:170px;
-    transition:all 2s;
+    width:88%;
+    height:160px;
+    transition:all .5s;
 }
 .dimension-imagen-aside:hover{
-    width:75%;
-    height:150px;
+    width:95%;
+    height:195px;
     border-radius:15px;
     border:5px solid rgb(252, 187, 48);
 }

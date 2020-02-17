@@ -1,20 +1,24 @@
 /* Css SECTION PARTE INDEX*/
 .dimension-imagen-destacada{
-    width:600px;
-    height:500px;
+    width:500px;
+    height:400px;
     border-radius: 43px 43px 43px 43px;
     -moz-border-radius: 43px 43px 43px 43px;
     -webkit-border-radius: 43px 43px 43px 43px;
     border: 0px solid #000000;
     padding:30px;
-    transition:all 2s;
+    transition:all .5s;
 }
 .dimension-imagen-destacada:hover{
     border:10px solid rgb(252, 187, 48);
-    width:500px;
-    height:400px;
-    margin-left:45px;
+    width:600px;
+    height:500px;
 }
+
+.centrar {
+    text-align: center;
+}
+
 .subtitulo-section-index{
     font-size: 25px;
     color: darkred;
@@ -57,17 +61,34 @@
     text-align: center;
 }
 .dimension-imagen-index{
-    width:300px;
+    width:250px;
     height:200px;
     border-radius: 43px 43px 43px 43px;
     -moz-border-radius: 43px 43px 43px 43px;
     -webkit-border-radius: 43px 43px 43px 43px;
     border: 0px solid #000000;
     margin-bottom: 70px;
+   
+    -webkit-box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
+    -moz-box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
+    box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
+    transition: all .5s;
+}
+
+.dimension-imagen-index:hover{
+    width: 300px;
+    height: 250px;
+    border-radius: 43px 43px 43px 43px;
+    -moz-border-radius: 43px 43px 43px 43px;
+    -webkit-border-radius: 43px 43px 43px 43px;
+    border: 0px solid #000000;
+    margin-bottom: 70px;
+    margin-left: -30px;
     -webkit-box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
     -moz-box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
     box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
 }
+
 .modo-grid-index{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -149,14 +170,14 @@
     -moz-border-radius: 24px 24px 24px 24px;
     -webkit-border-radius: 24px 24px 24px 24px;
     border: 0.8px solid #f0134d;
-    width:100px;
+    width:90px;
     height:90px;
     line-height: 100px;
     transition: all 1s;
     margin:0 auto;
 }
 .borde-figura-productos:hover{
-    width:90px;
+    width:100px;
     height:90px;
     border-radius: 200px;
 }
@@ -476,11 +497,11 @@ html{
     width:80px;
     height:80px;
     padding-top: 50px;
-    transition:all 2s;
+    transition:all .5s;
 }
 .dimension-imagen-evento:hover{
-    width:70px;
-    height:70px;
+    width:100px;
+    height:100px;
     margin-top:5px;
     margin-bottom:5px;
 }

@@ -6,8 +6,9 @@
                         "nav section aside"
                         "n1 section aside"
                         "footer footer footer";
-    width:85%;
+    max-width: 1400px;
     margin:0 auto;
+
 }
 header{
     grid-area: header;
