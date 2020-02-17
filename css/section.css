@@ -1,9 +1,4 @@
 /* Css SECTION PARTE INDEX*/
-.fondo-section-index{
-    background-color: white;
-    width:60%;
-    text-align:center;
-}
 .dimension-imagen-destacada{
     width:600px;
     height:500px;
@@ -11,26 +6,55 @@
     -moz-border-radius: 43px 43px 43px 43px;
     -webkit-border-radius: 43px 43px 43px 43px;
     border: 0px solid #000000;
+    padding:30px;
+    transition:all 2s;
 }
-.letra-section-index{
-    font-size: 30px;
+.dimension-imagen-destacada:hover{
+    border:10px solid rgb(252, 187, 48);
+    width:500px;
+    height:400px;
+    margin-left:45px;
+}
+.subtitulo-section-index{
+    font-size: 25px;
     color: darkred;
     font-family: 'Bad Script', cursive;
     font-weight:bolder;
     font-style:italic;
+    text-align: center;
+    margin-top:100px;
+}
+.subtitulo-section2{
+    font-size: 25px;
+    color: darkred;
+    font-family: 'Bad Script', cursive;
+    font-weight:bolder;
+    font-style:italic;
+    margin-top:80px;
+    margin-bottom: 80px;
+}
+.letra-section-index{
+    font-size: 25px;
+    color: darkred;
+    font-family: 'Bad Script', cursive;
+    font-weight:bolder;
+    font-style:italic;
+    text-align: center;
 }
 .titulo-section-index{
-    font-size: 35px;
+    font-size: 30px;
     color:darkred;
     margin-bottom: 50px;
     margin-top: 50px;
     font-family: 'Bad Script', cursive;
     font-weight:bolder;
     font-style: italic;
+    text-align: center;
 }
 .texto-section-index{
     color:darkred;
     font-family: 'Signika Negative', sans-serif;
+    text-align: center;
 }
 .dimension-imagen-index{
     width:300px;
@@ -50,25 +74,91 @@
     grid-template-rows: auto;
     width:70%;
     text-align:justify;
-    column-gap: 50px;
+    column-gap: 30px;
     margin: 0 auto;
 }
 
 /*CSS SECTION PARTE PRODUCTOS*/
-.centrar-iconos-productos{
-    width:60%;
+.modo-grid-productos{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: minmax(50px, auto) minmax(200px, auto) minmax(100px, auto) minmax(10px,auto);
+    grid-template-areas:"Title Title"
+                        "Foto Descrip"
+                        "Dispon Dispon"
+                        "Reserva Reserva" ;
+    width:90%;
     margin:0 auto;
-    text-align: center;
-    margin-bottom: 70px;
+    text-align:center;
+    column-gap: 30px;
+}
+#Title{
+    grid-area:Title;
+}
+#Foto{
+    grid-area:Foto;
+}
+#Descrip{
+    grid-area:Descrip;
+}
+#Dispon{
+    grid-area:Dispon;
+}
+#Reserva{
+    grid-area:Reserva;
+}
+.modo-grid-productos2{
+    display:grid;
+    grid-template-columns: 1 2fr;
+    grid-template-rows: minmax(50px, auto) minmax(200px, auto) minmax(70px, auto) minmax(10px,auto);
+    grid-template-areas:"Title Title"
+                        "Descrip Foto"
+                        "Dispon Dispon"
+                        "Reserva Reserva" ;
+    width:90%;
+    margin:0 auto;
+    text-align:center;
+    column-gap: 30px;
+}
+#Title{
+    grid-area:Title;
+}
+#Foto{
+    grid-area:Foto;
+}
+#Descrip{
+    grid-area:Descrip;
+}
+#Dispon{
+    grid-area:Dispon;
+}
+#Reserva{
+    grid-area:Reserva;
+}
+.modo-grid-iconos-productos{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,auto);
+    row-gap: 20px;
+    margin:0 auto;
+    width:90%;
+    column-gap: 15px;
 }
 .borde-figura-productos{
     border-radius: 24px 24px 24px 24px;
     -moz-border-radius: 24px 24px 24px 24px;
     -webkit-border-radius: 24px 24px 24px 24px;
     border: 0.8px solid #f0134d;
-    width:130px;
+    width:100px;
     height:90px;
     line-height: 100px;
+    transition: all 1s;
+    margin:0 auto;
+}
+.borde-figura-productos:hover{
+    width:90px;
+    height:90px;
+    border-radius: 200px;
 }
 
 .borde-productos{
@@ -82,94 +172,83 @@
     line-height: 200px;
     margin: 0 auto;
     border:2px solid  #f0134d;
-}
-.borde-tabla-productos{
-    width:100%;
-    border:5px solid  #f0134d;
-    border-collapse: collapse;
-}
-.dimension-td-productos{
-    width:50%;
-    margin:0 auto;
-    text-align: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    background-color: #40bfc1;
-}
-.dimension-td-productos-blanco{
-    width:50%;
-    margin:0 auto;
-    text-align: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    background-color:  #f5f0e3;
+    margin-bottom: 30px;
 }
 .margen-texto{
     margin-bottom:70px;
-}
-.fondo-section-productos{
-    background-color:white;
-    width:60%;
-    text-align: center;
-}
-.boton-productos{
-    border-radius: 12px 12px 12px 12px;
-    -moz-border-radius: 12px 12px 12px 12px;
-    -webkit-border-radius: 12px 12px 12px 12px;
-    border: 0px solid #000000;
-    background-color:  #f0134d;
-    width:50%;
-    margin:0 auto;
-    text-align: center;
 }
 html{
     scroll-behavior:smooth;
 }
 .titulo-productos{
-    font-size: 35px;
+    font-size: 30px;
     color:darkred;
     margin-bottom: 50px;
     margin-top: 50px;
     font-family: 'Bad Script', cursive;
     font-weight:bolder;
     font-style: italic;
-}
-.link-revisar-precios{
     text-align: center;
-    margin:0 auto;
-    padding-bottom: 50px;
-    padding-top: 100px;
 }
-.titulo-productos-blanco{
-    font-size: 40px;
-    text-align: center;
-    margin:0 auto;
-    color:white;
+.subtitulo-productos{
+    font-size: 30px;
+    color:darkred;
     margin-bottom: 50px;
     margin-top: 50px;
-    font-family: 'Patua One', cursive;
-    text-decoration: none;
-}
-.texto-productos{
-    font-size: 30px;
-    color: darkred;
     font-family: 'Bad Script', cursive;
     font-weight:bolder;
-    font-style:italic;
+    font-style: italic;
+    text-align: center;
 }
-.texto-productos-blanco{
-    color:white;
-    font-size:25px;
-    text-decoration: none;
+.presentacion-productos{
+    font-size: 20px;
+    color:darkred;
+    margin-bottom: 50px;
+    margin-top: 50px;
     font-family: 'Signika Negative', sans-serif;
+    font-style: italic;
     text-align: center;
 }
-.borde-texto-productos{
-    width:100%;
-    text-align: center;
-    background-color: #f0134d; 
-    margin-bottom:100px;
-    margin-top:100px;
+.letra-productos{
+    font-family: 'Signika Negative', sans-serif;
+    color:darkred;
+}
+.texto-precio-link{
+    font-family: 'Signika Negative', sans-serif;
+    color:darkred;
+    text-decoration: none;
+}
+.margen-revisa-precios{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.texto-precio-link::after{
+    content:"";
+    display:inline-block;
+    background: url(../resources/iconos/click.png);
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+    margin-left:15px;
+}
+.letra-descripcion{
+    font-family: 'Signika Negative', sans-serif;
+    color:darkred;
+    padding-top:70px;
+}
+.letra-reservar{
+    font-family: 'Signika Negative', sans-serif;
+    color:darkred;
+    font-weight: bolder;
+}
+.letra-reservar::before{
+    content:"";
+    display:inline-block;
+    background: url(../resources/iconos/laptop.png);
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+    margin-right:15px;
 }
 .boton-reservar{
     border-radius: 27px 27px 27px 27px;
@@ -182,55 +261,57 @@ html{
     background-color:  #f0134d;
     margin:0 auto;
     text-align: center;
-    width:200px;
+    width:150px;
     height:60px;
     line-height: 60px;
-    margin-top:50px;
+    color:white;
+    margin-bottom:100px;
 }
 .derecha{
     text-align:right;
-    margin-top:80px;
 }
 .texto-derecha{
-    color:white;
-    font-size:22px;
+    color:darkred;
     text-decoration: none;
     font-family: 'Signika Negative', sans-serif;
     text-align: center;
     margin-right: 20px;
 }
+.texto-derecha::after{
+    content:"";
+    display:inline-block;
+    background: url(../resources/iconos/system.png);
+    width:24px;
+    height:24px;
+    margin-left:15px;
+    vertical-align: middle;
+}
 .izquierda{
     text-align:left;
-    margin-top:80px;
-    margin-left: 20px;
 }
 
 /*CSS SECTION PARTE NOTICIA*/
-.fondo-section-noticia{
-    background-color:white;
-    width:60%;
-    vertical-align: top;
-}
 .titulo-noticia{
-    font-family: 'Patua One', cursive;
-    font-size: 48px;
+    font-size: 30px;
     color:darkred;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Bad Script', cursive;
+    font-weight:bolder;
+    font-style: italic;
 }
 .letra-noticia{
     font-family: 'Signika Negative', sans-serif;
-    font-size: 20px;
     color:darkred;
 }
 .dimension-imagen-noticia{
     width:100%;
-    height:700px;
+    height:500px;
 }
 .letra-parrafo-noticia{
     font-family: 'Signika Negative', sans-serif;
-    font-size: 20px;
     color:darkred;
-    text-align: justify;
-    margin-bottom:100px;
+    margin-bottom:50px;
     margin-top:50px;
 }
 .dimension-iconos-noticia{
@@ -243,87 +324,277 @@ html{
     text-align: center;
     border:1px solid white;   
 }
-.link-noticia{
+.link-noticia-despues{
     text-decoration: none;
     font-family: 'Signika Negative', sans-serif;
-    font-size: 20px;
     color:darkred;
+}
+.link-noticia-antes{
+    text-decoration: none;
+    font-family: 'Signika Negative', sans-serif;
+    color:darkred;
+}
+.link-noticia-antes::before{
+    content:"";
+    display:inline-block;
+    background: url(../resources/iconos/left-arrow.png);
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+    margin-right:15px;
+}
+.link-noticia-despues::after{
+    content:"";
+    display:inline-block;
+    background: url(../resources/iconos/right-arrow.png);
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+    margin-left: 15px;
 }
 .margen{
     margin-bottom:70px;
 }
-.flecha{
-    width:20px;
-    height:20px;
-}
 .letra-lista{
     font-family: 'Signika Negative', sans-serif;
-    font-size: 20px;
     color:darkred;
-    text-align: justify;
-    margin-bottom:100px;
+    margin-bottom:50px;
 }
 
 .letra-parrafo-lista{
     font-family: 'Signika Negative', sans-serif;
-    font-size: 20px;
     color:darkred;
-    text-align: justify;
 }
 /*SECTION PARTE DE TABLA DE PRECIOS*/
-    .modo-grid{
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows:repeat(4, minmax(200px, auto)) ;
-        row-gap: 15px;
-        column-gap: 20px;
-        width:90%;
-        margin:0 auto;
-        margin-top:100px;
-        margin-bottom:100px;
-        text-align: center;
-       }
+.modo-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;        
+    grid-template-rows:repeat(4, minmax(200px, auto)) ;
+    row-gap: 15px;
+    column-gap: 30px;
+    margin:0 auto;
+    margin-bottom:100px;
+    text-align: center;
+    width:85%;
+}
+.titulo-tabla{
+    font-size:20px;
+    color:darkred;
+    font-family: 'Bad Script', cursive;
+    font-weight:bolder;
+    font-style: italic;
+    text-align: center;
+}
+.borde-imagen-tabla{
+    border-radius: 24px 24px 24px 24px;
+    -moz-border-radius: 24px 24px 24px 24px;
+    -webkit-border-radius: 24px 24px 24px 24px;
+    border: 0px solid #000000;
+    width:150px;
+    height:100px;
+    border:2px solid  #ff6f5e;
+}
+.texto-tabla{
+    font-family: 'Signika Negative', sans-serif;
+    text-align: justify;
+}
+.texto-precio{
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+}
+.texto-precio::before{
+    content:"";
+    display:inline-block;
+    background: url(../resources/iconos/money.png);
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.presentacion-tabla{
+    font-size: 20px;
+    color:darkred;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Signika Negative', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+.texto-disponible{
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+}
+.titulo-tabla-precios{
+    font-size: 30px;
+    color:darkred;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Bad Script', cursive;
+    font-weight:bolder;
+    font-style: italic;
+    text-align: center;
+}
+/*SECTION PARTE EVENTOS*/
+.modo-grid-eventos{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(150, auto);
+    width:50%;
+    column-gap:20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.titulo-evento{
+    font-size: 30px;
+    color:darkred;
+    margin-top: 50px;
+    font-family: 'Bad Script', cursive;
+    font-weight:bolder;
+    font-style: italic;
+    text-align: center;
+}
+.subtitulo-evento{
+    font-size: 30px;
+    color:darkred;
+    font-family: 'Bad Script', cursive;
+    font-weight:bolder;
+    font-style: italic;
+    text-align: center;
+    margin-top:30px;
+}
+.subtitulo-tres-eventos{
+    font-size: 20px;
+    color:darkred;
+    margin-top: 50px;
+    font-family: 'Bad Script', cursive;
+    font-weight:bolder;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.dimension-imagen-evento{
+    width:80px;
+    height:80px;
+    padding-top: 50px;
+    transition:all 2s;
+}
+.dimension-imagen-evento:hover{
+    width:70px;
+    height:70px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.texto-evento{
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    color:darkred;
+}
+.texto-tres-evento{
+    padding-bottom: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    color:darkred;
+}
+.texto-tres-evento::before{
+    content:"";
+    display:inline-block;
+    background: url(../resources/iconos/money.png);
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+    margin-right:15px;
+}
+.texto-descripcion-evento{
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    color:darkred;
+}
+.volver-up{
+    padding-bottom: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    color:darkred;
+    text-decoration: none;
+    margin-left:50px;
+}
+.volver-up::after{
+    content:"";
+    display:inline-block;
+    background: url(../resources/iconos/system.png);
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+    margin-left:15px;
+}
+.modo-grid-tres-eventos{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(50px, auto) minmax(50px, auto) minmax(250px, auto) minmax(30px,auto) minmax(30px, auto);
+    margin:0 auto;
+    text-align: center;
+    grid-template-areas:"T1 T1 T1"
+                        "N1 N2 N3" 
+                        "N4 N5 N6"
+                        "N7 N8 N9"
+                        "N10 N10 N10";
+}
+.T1{
+    grid-area:T1;
+}
+#N1{
+    grid-area:N1;
+}
+#N2{
+    grid-area:N2;
+}
+#N3{
+    grid-area:N3;
+}
+#N4{
+    grid-area:N4;
+}
+#N5{
+    grid-area:N5;
+}
+#N6{
+    grid-area:N6;
+}
+#N7{
+    grid-area:N7;
+}
+#N8{
+    grid-area:N8;
+}
+#N9{
+    grid-area:N9;
+}
+#N10{
+    grid-area:N10;
+}
+.imagen-eventos{
+    width:200px;
+    height:300px;
+    border-radius: 53px 53px 53px 53px;
+    -moz-border-radius: 53px 53px 53px 53px;
+    -webkit-border-radius: 53px 53px 53px 53px;
+    border: 0px solid #000000;
+    margin-bottom: 30px;
+}
+.margen-link-eventos{
+    margin-top: 30px;
+    text-align: right;
+}
+.presentacion-eventos{
+    font-size: 20px;
+    color:darkred;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Signika Negative', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
 
-    .fondo-section-tabla{
-        background-color: white;
-        width:60%;
-        vertical-align: top;
-    }
-    .borde-texto-tabla{
-        width:100%;
-        text-align: center;
-    }
-    .titulo-tabla{
-        font-size: 25px;
-        font-family: 'Patua One', cursive;
-        color:darkred;
-    }
-    .borde-imagen-tabla{
-        border-radius: 24px 24px 24px 24px;
-        -moz-border-radius: 24px 24px 24px 24px;
-        -webkit-border-radius: 24px 24px 24px 24px;
-        border: 0px solid #000000;
-        width:200px;
-        height:150px;
-        border:2px solid  #ff6f5e;
-    }
-    .texto-tabla{
-        font-size:18px;
-        font-family: 'Signika Negative', sans-serif;
-        text-align: justify;
-    }
-    .texto-precio{
-        font-size:18px;
-        font-family: 'Signika Negative', sans-serif;
-        text-align: center;
-    }
-    .texto-disponible{
-        font-size:17px;
-        font-family: 'Signika Negative', sans-serif;
-        text-align: center;
-    }
-    .titulo-tabla-precios{
-        font-size: 40px;
-        font-family: 'Patua One', cursive;
-        color:darkred;
-    }
