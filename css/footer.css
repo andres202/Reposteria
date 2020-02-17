@@ -3,14 +3,13 @@
     width:100%;
 }
 .footer{
-    font-size:20px;
     color:white;
     text-align: center;
     width:100%;
     font-family: 'Signika Negative', sans-serif;
 }
 .dimension-iconos{
-    width:60px;
-    height:60px;
+    width:30px;
+    height:30px;
     margin:30px;
 }

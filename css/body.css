@@ -1,4 +1,6 @@
 .dimension-primera-tabla{
     border-collapse: collapse;
-    width:100%;
+    width:85%;
+    margin:50px;
+    margin:0 auto;
 }

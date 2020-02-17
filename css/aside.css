@@ -4,10 +4,9 @@
     vertical-align: top;
 }
 .formato-noticias{
-    font-size:20px;
     text-decoration: none;
     font-family: 'Signika Negative', sans-serif;
-    color:black;
+    color:darkred;
 }
 .dimension-tabla-aside{
     width:100%;
@@ -18,12 +17,13 @@
     border:1px solid white;
 }
 .titulo-aside{
-    font-size: 32px;
+    font-size: 25px;
     text-align: center;
     margin:0 auto;
     margin-bottom: 50px;
     margin-top: 50px;
     font-family: 'Patua One', cursive;
+    color:darkred;
 }
 .dimension-imagen-aside{
     width:100%;
@@ -45,3 +45,4 @@
     font-size:20px;
     text-decoration: none;
     font-family: 'Signika Negative', sans-serif;
+}
