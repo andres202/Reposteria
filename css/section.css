@@ -1,24 +1,23 @@
 /* Css SECTION PARTE INDEX*/
 .dimension-imagen-destacada{
-    width:500px;
-    height:400px;
+    width:600px;
+    height:500px;
     border-radius: 43px 43px 43px 43px;
     -moz-border-radius: 43px 43px 43px 43px;
     -webkit-border-radius: 43px 43px 43px 43px;
     border: 0px solid #000000;
     padding:30px;
-    transition:all .5s;
+    transition:all 0.5s;
 }
 .dimension-imagen-destacada:hover{
-    border:10px solid rgb(252, 187, 48);
-    width:600px;
+    border-left:15px solid #ff6f5e;
+    border-right:15px solid #ff6f5e;
+    width:640px;
     height:500px;
 }
-
 .centrar {
     text-align: center;
 }
-
 .subtitulo-section-index{
     font-size: 25px;
     color: darkred;
@@ -36,6 +35,7 @@
     font-style:italic;
     margin-top:80px;
     margin-bottom: 80px;
+    margin-left:40px;
 }
 .letra-section-index{
     font-size: 25px;
@@ -61,34 +61,18 @@
     text-align: center;
 }
 .dimension-imagen-index{
-    width:250px;
-    height:200px;
+    width:300px;
+    height:220px;
     border-radius: 43px 43px 43px 43px;
     -moz-border-radius: 43px 43px 43px 43px;
     -webkit-border-radius: 43px 43px 43px 43px;
     border: 0px solid #000000;
     margin-bottom: 70px;
-   
     -webkit-box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
     -moz-box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
     box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
     transition: all .5s;
 }
-
-.dimension-imagen-index:hover{
-    width: 300px;
-    height: 250px;
-    border-radius: 43px 43px 43px 43px;
-    -moz-border-radius: 43px 43px 43px 43px;
-    -webkit-border-radius: 43px 43px 43px 43px;
-    border: 0px solid #000000;
-    margin-bottom: 70px;
-    margin-left: -30px;
-    -webkit-box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
-    -moz-box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
-    box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
-}
-
 .modo-grid-index{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -180,6 +164,7 @@
     width:100px;
     height:90px;
     border-radius: 200px;
+    padding-left:10p;
 }
 
 .borde-productos{
@@ -286,7 +271,12 @@ html{
     height:60px;
     line-height: 60px;
     color:white;
-    margin-bottom:100px;
+    margin-bottom:70px;
+    transition:all 0.5s;
+}
+.boton-reservar:hover{
+    width:170px;
+    font-size: 20px;
 }
 .derecha{
     text-align:right;
@@ -496,14 +486,12 @@ html{
 .dimension-imagen-evento{
     width:80px;
     height:80px;
-    padding-top: 50px;
-    transition:all .5s;
+    transition:all 0.5s;
 }
 .dimension-imagen-evento:hover{
-    width:100px;
-    height:100px;
-    margin-top:5px;
-    margin-bottom:5px;
+    width:90px;
+    border-left:10px solid  #ff6f5e;
+    border-right:10px solid  #ff6f5e;
 }
 .texto-evento{
     padding-bottom: 100px;
@@ -612,7 +600,7 @@ html{
 .presentacion-eventos{
     font-size: 20px;
     color:darkred;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     margin-top: 50px;
     font-family: 'Signika Negative', sans-serif;
     font-style: italic;
