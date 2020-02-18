@@ -1,7 +1,7 @@
 /* Css SECTION PARTE INDEX*/
 .dimension-imagen-destacada{
-    width:600px;
-    height:500px;
+    width:580px;
+    height:480px;
     border-radius: 43px 43px 43px 43px;
     -moz-border-radius: 43px 43px 43px 43px;
     -webkit-border-radius: 43px 43px 43px 43px;
@@ -10,13 +10,14 @@
     transition:all 0.5s;
 }
 .dimension-imagen-destacada:hover{
-    border-left:15px solid #ff6f5e;
-    border-right:15px solid #ff6f5e;
-    width:640px;
-    height:500px;
+    border:2px solid #ff6f5e;
+    width:600px;
+    height:480px;
+    transform: scale(1.2);
 }
-.centrar {
+.centrar-imagen-destacada {
     text-align: center;
+    height: 500px;
 }
 .subtitulo-section-index{
     font-size: 25px;
