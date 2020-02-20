@@ -69,9 +69,9 @@
     -webkit-border-radius: 43px 43px 43px 43px;
     border: 0px solid #000000;
     margin-bottom: 70px;
-    -webkit-box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
-    -moz-box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
-    box-shadow: 46px 45px 39px -27px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px -12px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 36px -12px rgba(0,0,0,0.75);
     transition: all .5s;
 }
 .modo-grid-index{
@@ -83,6 +83,7 @@
     column-gap: 30px;
     margin: 0 auto;
 }
+
 
 /*CSS SECTION PARTE PRODUCTOS*/
 .modo-grid-productos{
@@ -167,7 +168,6 @@
     border-radius: 200px;
     padding-left:10p;
 }
-
 .borde-productos{
     border-radius: 24px 24px 24px 24px;
     -moz-border-radius: 24px 24px 24px 24px;
@@ -301,6 +301,44 @@ html{
 .izquierda{
     text-align:left;
 }
+#reservar-oculto{
+    display:none;
+}
+@media only screen and (max-width:480px){
+    .modo-grid-pagina{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(70px, auto) minmax(100px, auto) minmax(150px, auto);
+        grid-template-areas: "header"
+                            "section"
+                            "footer";
+    }
+    #logo{
+        width:350px;
+    }
+    .letra-logo{
+        font-size: 45px;
+        font-family: 'Molle', cursive;
+        color:rgb(129, 237, 241);
+    }
+    .modo-grid-iconos-productos{
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, auto);
+    }
+    #reservar-oculto{
+        display: block;
+    }
+    .borde-productos, .margen-texto, .letra-descripcion, .derecha, 
+    .texto-derecha, .texto-derecha::after, .izquierda, .subtitulo-productos, 
+    .letra-productos,.modo-grid-productos2, .modo-grid-productos {
+        display:none;
+    }
+    nav, aside, hr{
+        display:none;
+    }
+}
+
 
 /*CSS SECTION PARTE NOTICIA*/
 .titulo-noticia{
@@ -377,6 +415,8 @@ html{
     font-family: 'Signika Negative', sans-serif;
     color:darkred;
 }
+
+
 /*SECTION PARTE DE TABLA DE PRECIOS*/
 .modo-grid{
     display:grid;
@@ -446,6 +486,8 @@ html{
     font-style: italic;
     text-align: center;
 }
+
+
 /*SECTION PARTE EVENTOS*/
 .modo-grid-eventos{
     display:grid;

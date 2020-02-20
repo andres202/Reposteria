@@ -21,18 +21,15 @@
     height:200px;
     transition:all 0.5s;
 }
-
 .dimension-imagen-aside:hover{
     width:90%;
     border-radius:15px;
     border:2px solid #ff6f5e;
     transform: scale(1.1);
 }
-
 .contenedor-imagen-aside {
     height: 200px;
 }
-
 .modo-grid-aside{
     display:grid;
     grid-template-columns: 1fr;
