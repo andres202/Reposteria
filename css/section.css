@@ -20,16 +20,17 @@
     height: 500px;
 }
 .subtitulo-section-index{
-    font-size: 25px;
+    font-size: 1.7rem;
     color: darkred;
     font-family: 'Bad Script', cursive;
     font-weight:bolder;
     font-style:italic;
     text-align: center;
     margin-top:100px;
+    font-weight: bolder;
 }
 .subtitulo-section2{
-    font-size: 25px;
+    font-size: 1.7rem;
     color: darkred;
     font-family: 'Bad Script', cursive;
     font-weight:bolder;
@@ -37,9 +38,10 @@
     margin-top:80px;
     margin-bottom: 80px;
     margin-left:40px;
+    font-weight: bolder;
 }
 .letra-section-index{
-    font-size: 25px;
+    font-size: 1.7rem;
     color: darkred;
     font-family: 'Bad Script', cursive;
     font-weight:bolder;
@@ -47,7 +49,7 @@
     text-align: center;
 }
 .titulo-section-index{
-    font-size: 30px;
+    font-size: 2rem;
     color:darkred;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -55,6 +57,7 @@
     font-weight:bolder;
     font-style: italic;
     text-align: center;
+    font-weight: bolder;
 }
 .texto-section-index{
     color:darkred;
@@ -69,9 +72,9 @@
     -webkit-border-radius: 43px 43px 43px 43px;
     border: 0px solid #000000;
     margin-bottom: 70px;
-    -webkit-box-shadow: 10px 10px 36px -12px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 36px -12px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 36px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     transition: all .5s;
 }
 .modo-grid-index{
@@ -99,19 +102,19 @@
     text-align:center;
     column-gap: 30px;
 }
-#Title{
+.title{
     grid-area:Title;
 }
-#Foto{
+.foto{
     grid-area:Foto;
 }
-#Descrip{
+.descrip{
     grid-area:Descrip;
 }
-#Dispon{
+.dispon{
     grid-area:Dispon;
 }
-#Reserva{
+.reserva{
     grid-area:Reserva;
 }
 .modo-grid-productos2{
@@ -126,21 +129,6 @@
     margin:0 auto;
     text-align:center;
     column-gap: 30px;
-}
-#Title{
-    grid-area:Title;
-}
-#Foto{
-    grid-area:Foto;
-}
-#Descrip{
-    grid-area:Descrip;
-}
-#Dispon{
-    grid-area:Dispon;
-}
-#Reserva{
-    grid-area:Reserva;
 }
 .modo-grid-iconos-productos{
     display:grid;
@@ -159,14 +147,13 @@
     width:90px;
     height:90px;
     line-height: 100px;
-    transition: all 1s;
+    transition: all 0.5s;
     margin:0 auto;
 }
 .borde-figura-productos:hover{
-    width:100px;
+    width:90px;
     height:90px;
     border-radius: 200px;
-    padding-left:10p;
 }
 .borde-productos{
     border-radius: 24px 24px 24px 24px;
@@ -188,7 +175,7 @@ html{
     scroll-behavior:smooth;
 }
 .titulo-productos{
-    font-size: 30px;
+    font-size: 2rem;
     color:darkred;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -196,19 +183,11 @@ html{
     font-weight:bolder;
     font-style: italic;
     text-align: center;
+    font-weight: bolder;
 }
-.subtitulo-productos{
-    font-size: 30px;
-    color:darkred;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    font-family: 'Bad Script', cursive;
-    font-weight:bolder;
-    font-style: italic;
-    text-align: center;
-}
+
 .presentacion-productos{
-    font-size: 20px;
+    font-size: 1.3rem;
     color:darkred;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -262,9 +241,9 @@ html{
     -moz-border-radius: 27px 27px 27px 27px;
     -webkit-border-radius: 27px 27px 27px 27px;
     border: 0px solid #000000;
-    -webkit-box-shadow: 10px 18px 43px 8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 18px 43px 8px rgba(0,0,0,0.75);
-    box-shadow: 10px 18px 43px 8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     background-color:  #f0134d;
     margin:0 auto;
     text-align: center;
@@ -277,7 +256,7 @@ html{
 }
 .boton-reservar:hover{
     width:170px;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 .derecha{
     text-align:right;
@@ -308,8 +287,9 @@ html{
     .modo-grid-pagina{
         display:grid;
         grid-template-columns: 1fr;
-        grid-template-rows: minmax(70px, auto) minmax(100px, auto) minmax(150px, auto);
+        grid-template-rows: minmax(70px, auto) minmax(70px, auto) minmax(100px, auto) minmax(150px, auto);
         grid-template-areas: "header"
+                            "nav"
                             "section"
                             "footer";
     }
@@ -317,9 +297,15 @@ html{
         width:350px;
     }
     .letra-logo{
-        font-size: 45px;
+        font-size: 2.9rem;
         font-family: 'Molle', cursive;
         color:rgb(129, 237, 241);
+    }
+    .modo-grid-nav{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:70px ;
+        margin: 0 auto;
     }
     .modo-grid-iconos-productos{
         display:grid;
@@ -331,10 +317,10 @@ html{
     }
     .borde-productos, .margen-texto, .letra-descripcion, .derecha, 
     .texto-derecha, .texto-derecha::after, .izquierda, .subtitulo-productos, 
-    .letra-productos,.modo-grid-productos2, .modo-grid-productos {
+    .letra-productos,.modo-grid-productos2, .modo-grid-productos, .margen-revisa-precios, .texto-precio-link::after {
         display:none;
     }
-    nav, aside, hr{
+    aside, hr{
         display:none;
     }
 }
@@ -342,17 +328,19 @@ html{
 
 /*CSS SECTION PARTE NOTICIA*/
 .titulo-noticia{
-    font-size: 30px;
+    font-size: 2rem;
     color:darkred;
     margin-bottom: 50px;
     margin-top: 50px;
     font-family: 'Bad Script', cursive;
     font-weight:bolder;
     font-style: italic;
+    font-weight: bolder;
 }
 .letra-noticia{
     font-family: 'Signika Negative', sans-serif;
     color:darkred;
+    margin-left:15px;
 }
 .dimension-imagen-noticia{
     width:100%;
@@ -410,7 +398,6 @@ html{
     color:darkred;
     margin-bottom:50px;
 }
-
 .letra-parrafo-lista{
     font-family: 'Signika Negative', sans-serif;
     color:darkred;
@@ -430,12 +417,13 @@ html{
     width:85%;
 }
 .titulo-tabla{
-    font-size:20px;
+    font-size:1.3rem;
     color:darkred;
     font-family: 'Bad Script', cursive;
     font-weight:bolder;
     font-style: italic;
     text-align: center;
+    font-weight: bolder;
 }
 .borde-imagen-tabla{
     border-radius: 24px 24px 24px 24px;
@@ -464,7 +452,7 @@ html{
     margin-right: 15px;
 }
 .presentacion-tabla{
-    font-size: 20px;
+    font-size: 1.3rem;
     color:darkred;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -477,7 +465,7 @@ html{
     text-align: center;
 }
 .titulo-tabla-precios{
-    font-size: 30px;
+    font-size: 2rem;
     color:darkred;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -485,6 +473,7 @@ html{
     font-weight:bolder;
     font-style: italic;
     text-align: center;
+    font-weight: bolder;
 }
 
 
@@ -499,25 +488,27 @@ html{
     text-align: center;
 }
 .titulo-evento{
-    font-size: 30px;
+    font-size: 2rem;
     color:darkred;
     margin-top: 50px;
     font-family: 'Bad Script', cursive;
     font-weight:bolder;
     font-style: italic;
     text-align: center;
+    font-weight: bolder;
 }
 .subtitulo-evento{
-    font-size: 30px;
+    font-size: 2rem;
     color:darkred;
     font-family: 'Bad Script', cursive;
     font-weight:bolder;
     font-style: italic;
     text-align: center;
     margin-top:30px;
+    font-weight: bolder;
 }
 .subtitulo-tres-eventos{
-    font-size: 20px;
+    font-size: 1.3rem;
     color:darkred;
     margin-top: 50px;
     font-family: 'Bad Script', cursive;
@@ -525,6 +516,7 @@ html{
     font-style: italic;
     text-align: center;
     margin-bottom: 30px;
+    font-weight: bolder;
 }
 .dimension-imagen-evento{
     width:80px;
@@ -641,7 +633,7 @@ html{
     text-align: right;
 }
 .presentacion-eventos{
-    font-size: 20px;
+    font-size: 1.3rem;
     color:darkred;
     margin-bottom: 80px;
     margin-top: 50px;
