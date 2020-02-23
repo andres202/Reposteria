@@ -1,4 +1,13 @@
 /* Css SECTION PARTE INDEX*/
+.presentacion-pagina{
+    font-size: 1.3rem;
+    color:darkred;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    font-family: 'Signika Negative', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
 .dimension-imagen-destacada{
     width:580px;
     height:480px;
@@ -75,12 +84,12 @@
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    transition: all .5s;
+    transition: all 0.5s;
 }
 .modo-grid-index{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: minmax(70px, auto);
     width:70%;
     text-align:justify;
     column-gap: 30px;
@@ -92,7 +101,7 @@
 .modo-grid-productos{
     display:grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: minmax(50px, auto) minmax(200px, auto) minmax(100px, auto) minmax(10px,auto);
+    grid-template-rows: minmax(50px, auto) minmax(200px, auto) minmax(100px, auto) minmax(10px, auto);
     grid-template-areas:"Title Title"
                         "Foto Descrip"
                         "Dispon Dispon"
@@ -119,7 +128,7 @@
 }
 .modo-grid-productos2{
     display:grid;
-    grid-template-columns: 1 2fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: minmax(50px, auto) minmax(200px, auto) minmax(70px, auto) minmax(10px,auto);
     grid-template-areas:"Title Title"
                         "Descrip Foto"
@@ -171,9 +180,6 @@
 .margen-texto{
     margin-bottom:70px;
 }
-html{
-    scroll-behavior:smooth;
-}
 .titulo-productos{
     font-size: 2rem;
     color:darkred;
@@ -185,7 +191,6 @@ html{
     text-align: center;
     font-weight: bolder;
 }
-
 .presentacion-productos{
     font-size: 1.3rem;
     color:darkred;
@@ -283,8 +288,93 @@ html{
 #reservar-oculto{
     display:none;
 }
+@media only screen and (max-width:1180px){
+    body.modo-grid-pagina{
+        grid-template-columns: 7fr 3fr;
+        grid-template-rows: minmax(70px, auto) minmax(70px, auto) minmax(400px, auto) minmax(70px, auto);
+        grid-template-areas:"header header"
+                            "nav nav"
+                            "section aside"
+                            "footer footer";
+    }
+    .modo-grid-nav{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: minmax(70px, auto);
+    }
+ }
+
+@media only screen and (max-width:970px){
+    body.modo-grid-pagina{
+        grid-template-columns: 7fr 3fr;
+        grid-template-rows: minmax(70px, auto) minmax(70px, auto) minmax(400px, auto) minmax(70px, auto);
+        grid-template-areas:"header header"
+                            "nav nav"
+                            "section aside"
+                            "footer footer";
+    }
+    .modo-grid-nav{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: minmax(70px, auto);
+    }
+ }
+@media only screen and (max-width:800px){
+    body.modo-grid-pagina{
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(70px, auto) minmax(70px, auto) minmax(400px, auto) minmax(70px, auto) minmax(70px, auto);
+        grid-template-areas:"header"
+                            "nav"
+                            "section"
+                            "aside"
+                            "footer";
+    }
+    .modo-grid-nav{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: minmax(70px, auto);
+    }
+    div.modo-grid-aside{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: minmax(70px, auto);
+        margin: 0 auto;
+    }
+    #logo{
+        width:600px;
+    }
+    .letra-logo{
+        font-size: 5.5rem;
+        font-family: 'Molle', cursive;
+        color:rgb(129, 237, 241);
+    }
+}
+@media only screen and (max-width:700px){
+    body.modo-grid-pagina{
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(70px, auto) minmax(70px, auto) minmax(400px, auto) minmax(70px, auto);
+        grid-template-areas:"header"
+                            "nav"
+                            "section"
+                            "aside"
+                            "footer";
+    }
+    .modo-grid-nav{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: minmax(70px, auto);
+    }
+    div.modo-grid-aside{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: minmax(70px, auto);
+        margin: 0 auto;
+    }
+    #logo{
+        width:500px;
+    }
+    .letra-logo{
+        font-size: 4.5rem;
+        font-family: 'Molle', cursive;
+        color:rgb(129, 237, 241);
+    }
+}
 @media only screen and (max-width:480px){
-    .modo-grid-pagina{
+    body.modo-grid-pagina{
         display:grid;
         grid-template-columns: 1fr;
         grid-template-rows: minmax(70px, auto) minmax(70px, auto) minmax(100px, auto) minmax(150px, auto);
@@ -304,8 +394,9 @@ html{
     .modo-grid-nav{
         display:grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows:70px ;
+        grid-template-rows:minmax(70px, auto);
         margin: 0 auto;
+        margin-bottom: 100px;
     }
     .modo-grid-iconos-productos{
         display:grid;
@@ -315,9 +406,9 @@ html{
     #reservar-oculto{
         display: block;
     }
-    .borde-productos, .margen-texto, .letra-descripcion, .derecha, 
+    .margen-texto, .derecha, .modo-grid-productos2, .letra-productos
     .texto-derecha, .texto-derecha::after, .izquierda, .subtitulo-productos, 
-    .letra-productos,.modo-grid-productos2, .modo-grid-productos, .margen-revisa-precios, .texto-precio-link::after {
+    .margen-revisa-precios, .texto-precio-link::after, .modo-grid-productos {
         display:none;
     }
     aside, hr{
@@ -405,7 +496,7 @@ html{
 
 
 /*SECTION PARTE DE TABLA DE PRECIOS*/
-.modo-grid{
+.modo-grid-precios{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;        
     grid-template-rows:repeat(4, minmax(200px, auto)) ;
@@ -586,37 +677,37 @@ html{
                         "N7 N8 N9"
                         "N10 N10 N10";
 }
-.T1{
+.t1{
     grid-area:T1;
 }
-#N1{
+.n1{
     grid-area:N1;
 }
-#N2{
+.n2{
     grid-area:N2;
 }
-#N3{
+.n3{
     grid-area:N3;
 }
-#N4{
+.n4{
     grid-area:N4;
 }
-#N5{
+.n5{
     grid-area:N5;
 }
-#N6{
+.n6{
     grid-area:N6;
 }
-#N7{
+.n7{
     grid-area:N7;
 }
-#N8{
+.n8{
     grid-area:N8;
 }
-#N9{
+.n9{
     grid-area:N9;
 }
-#N10{
+.n10{
     grid-area:N10;
 }
 .imagen-eventos{
